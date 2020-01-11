@@ -7,6 +7,12 @@ const axios = require('axios');
 
 const wordroute = express.Router();
 
+/**
+ * Calculate Top N words from requested text
+ * The Text is fetched from a site
+ * @param {Number} topn - top N most frequent words
+ * @returns {Array} - Array of objects, containing top n words and its count
+ */
 getTopNwords = async (topn) => {
   const mapwordcount = {};
   const finaltopcount = [];
