@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "proxy": "https://terriblytinytales.com/",
   "dependencies": {
     "axios": "^0.19.1",
     "body-parser": "^1.19.0",
@@ -22,6 +21,7 @@
     "eslint-plugin-import": "^2.20.0"
   },
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
